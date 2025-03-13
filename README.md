@@ -41,6 +41,12 @@ Content:
 
 - Controller: Handles HTTP requests, receives parameters from the frontend, invokes the Service layer for business logic processing, and returns results to the frontend.
 
+- Handler: Stores handler classes, which are used to handle specific business logic or exceptions.
+
+- Interceptor: Stores interceptor classes to execute certain logic before or after processing a request (such as permission verification, logging, etc.).
+
 - Service: Implements core business logic, such as data processing and business rule validation.
 
 - Mapper: Interfaces or implementations for interacting with the database, typically using ORM frameworks like MyBatis or JPA.
+
+- SkyApplication.java：The entry point for the Spring Boot application.
